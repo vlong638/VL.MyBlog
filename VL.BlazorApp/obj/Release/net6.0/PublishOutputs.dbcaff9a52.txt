@@ -1,0 +1,7 @@
+D:\Dev\Projects\NetCore\VL.BlazorApp\obj\Release\net6.0\PubTmp\Out\VL.BlazorApp.exe
+D:\Dev\Projects\NetCore\VL.BlazorApp\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+D:\Dev\Projects\NetCore\VL.BlazorApp\obj\Release\net6.0\PubTmp\Out\appsettings.json
+D:\Dev\Projects\NetCore\VL.BlazorApp\obj\Release\net6.0\PubTmp\Out\VL.BlazorApp.dll
+D:\Dev\Projects\NetCore\VL.BlazorApp\obj\Release\net6.0\PubTmp\Out\VL.BlazorApp.deps.json
+D:\Dev\Projects\NetCore\VL.BlazorApp\obj\Release\net6.0\PubTmp\Out\VL.BlazorApp.runtimeconfig.json
+D:\Dev\Projects\NetCore\VL.BlazorApp\obj\Release\net6.0\PubTmp\Out\VL.BlazorApp.pdb
