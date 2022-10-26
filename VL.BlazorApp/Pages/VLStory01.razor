@@ -1,0 +1,49 @@
+﻿@page "/VLStory01"
+
+<PageTitle>我是传奇工匠</PageTitle>
+
+@using VL.BlazorApp.Data
+@inject StoryService StoryService
+
+
+<h1>我是传奇工匠</h1>
+
+<p role="status">目录</p>
+
+@if (chapters == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th width="200">章节</th>
+                <th>节</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var chapter in chapters)
+            {
+                <tr>
+                    <td>@chapter.Name</td>
+                    @foreach (var section in chapter.Sections)
+                    {
+                        <tr>
+                            <td>@(section.Name)</td>
+                        </tr>
+                    }
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private List<Chapter>? chapters;
+    protected override async Task OnInitializedAsync()
+    {
+        chapters = await StoryService.GetChapters(1);
+    }
+}
